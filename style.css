@@ -1,0 +1,94 @@
+
+body {
+    background-color: #152238;
+    color: white;
+    padding: 50px 200px;
+}
+.nav-bar {
+    text-align: right;
+    margin-bottom: 50px;
+    font-size: 18px;
+    position: fixed;
+    background-color: #203355;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    text-align: center;
+}
+
+.intro .name img {
+    width: 200px; 
+    height: 200px; 
+}
+
+.profile-picture {
+    border-radius: 100px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.tech-skills {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tech-skills img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
+.education h2{
+    text-align: center;
+}
+
+
+.work-experience h2{
+    text-align: center;
+}
+
+.projects h2{
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+
+
